@@ -17,9 +17,9 @@ function Headers() {
               navbarScroll
             >
               <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/works">How it Works</Nav.Link>
               <Nav.Link as={Link} to="/project">Project</Nav.Link>
               <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
+              <Nav.Link as={Link} to="/works">How it Works</Nav.Link>
               <Nav.Link as={Link} to="/worktops">DIY Worktops</Nav.Link>
             </Nav>
           </Navbar.Collapse>
