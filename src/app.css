@@ -68,7 +68,11 @@ ul {
 .font_serif {
   font-family: var(--font-serif);
 }
-
+.title{
+  font-weight: 900;
+  font-size: 56px;
+  color: var(--primary);
+}
 .bg-body-tertiary {
   background-color: var(--headerColor) !important;
 }
