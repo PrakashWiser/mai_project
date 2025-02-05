@@ -379,6 +379,10 @@ p {
 .project_three .underline {
   width: 98%;
 }
+.signup_form .form-label{
+  font-weight: var(--fw400);
+
+}
 @media (min-width: 992px) {
   .home_one h1 {
     font-size: 76px;
@@ -408,6 +412,14 @@ p {
   .project_three .btn_groubs button {
     font-weight: var(--fw700);
     font-size: 22px;
+  }
+  .signup_form .form-label{
+    font-size: 26px;
+    font-weight: var(--fw400);
+    line-height: 32px;
+  }
+  .img_fuild{
+    max-height: 700px;
   }
 }
 

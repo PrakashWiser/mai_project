@@ -9,15 +9,19 @@ function Blog() {
   const [endDate, setEndDate] = useState("");
 
   return (
-    <MainLayout className="my-lg-4">
+    <MainLayout className="my-lg-4 signup_form">
       <Container>
         <Row>
           <Col lg={6} className="d-flex ">
-            <Image link={img} className="w-100  opacity-50" height="800px"  />
+            <Image link={img} className="img-fluid  opacity-50 img_fuild"  />
           </Col>
           <Col lg={6}>
             <ul
-              style={{ backgroundColor: "#DBE7F1 ", listStyle: "inherit" }}
+              style={{
+                backgroundColor: "#DBE7F1 ",
+                listStyle: "inherit",
+                fontSize: "17px",
+              }}
               className="p-5 rounded"
             >
               <li>
@@ -29,16 +33,22 @@ function Blog() {
                 documents, or specifications for clarity.
               </li>
             </ul>
+            <div
+              className="text-center p-3 my-3 text_primary"
+              style={{ backgroundColor: "#DBE7F1 " ,fontSize:"33px", fontWeight:"700"}}
+            >
+              Post a Project
+            </div>
             <Form>
               <Form.Group className="mb-3">
                 <Form.Label>Category</Form.Label>
-                <Form.Select>
+                <Form.Select className="p-3">
                   <option>Select Options</option>
                 </Form.Select>
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label>Sub-Category</Form.Label>
-                <Form.Select>
+                <Form.Select className="p-3">
                   <option>Select Options</option>
                 </Form.Select>
               </Form.Group>

@@ -5,9 +5,8 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Project from "./pages/Projects";
 import Blogs from "./pages/Blogs";
-import Works from "./pages/Works";
-import Worktops from "./pages/Worktops";
 import Footer from "./components/Footer";
+import ErrorPage from "./components/Error";
 export default function App() {
   return (
     <Router>
@@ -16,8 +15,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<Project />} />
         <Route path="/blogs" element={<Blogs />} />
-        <Route path="/works" element={<Works />} />
-        <Route path="/worktops" element={<Worktops />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </Router>
