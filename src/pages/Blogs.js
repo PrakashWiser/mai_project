@@ -13,7 +13,7 @@ function Blog() {
       <Container>
         <Row>
           <Col lg={6} className="d-flex ">
-            <Image link={img} className="img-fluid  opacity-50 img_fuild"  />
+            <Image link={img} className="img-fluid   img_fluid "  />
           </Col>
           <Col lg={6}>
             <ul

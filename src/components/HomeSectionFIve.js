@@ -53,7 +53,7 @@ function HomeSectionFive() {
                                     {card.title}
                                 </Card.Title>
                                 <Card.Body className="d-flex flex-column bg-mute">
-                                    <Card.Text className="description flex-grow-1 bg-white p-1 rounded-3">{card.description}</Card.Text>
+                                    <Card.Text className="description flex-grow-1  p-1 rounded-3">{card.description}</Card.Text>
                                     <div className='d-flex justify-content-between'>
                                         <p>Budget:{card.budget}</p>
                                         <Button>View</Button>

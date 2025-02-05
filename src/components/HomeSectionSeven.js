@@ -12,7 +12,7 @@ function HomeSectionSeven() {
                 <Row className="align-items-center justify-content-center">
                     <Col md={6} className="text-center">
                         <div className="contact-image-container">
-                            <Images link={contact} className="img-fluid contact-image" />
+                            <Images link={contact} className="img-fluid contact-image "  />
                         </div>
                     </Col>
                     <Col md={6}>

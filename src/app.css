@@ -316,13 +316,13 @@ p {
   background-color: var(--primary);
 }
 
-.home_five p {
-  color: var(--primary);
-}
 .home_six .card-text {
   font-family: var(--monsert);
   font-size: var(--fs-17) !important;
   font-weight: var(--fw400) !important;
+}
+.home_seven h3{
+  font-style: normal !important ;
 }
 .home_seven {
   font-style: italic;
@@ -343,6 +343,7 @@ p {
 .description {
   font-weight: 400 !important;
   font-size: 16px !important;
+  color: #000000;
 }
 .project_banner p {
   font-weight: var(--fw600);
@@ -387,6 +388,10 @@ p {
   font-weight: var(--fw400);
 
 }
+.signup_form .img_fluid{
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
 @media (min-width: 992px) {
   .home_one h1 {
     font-size: 76px;
@@ -422,8 +427,8 @@ p {
     font-weight: var(--fw400);
     line-height: 32px;
   }
-  .img_fuild{
-    max-height: 700px;
+  .img_fluid{
+    max-height: 650px;
   }
 }
 
